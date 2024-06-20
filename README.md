@@ -20,4 +20,31 @@
 
 <br>
 
+## key features
+<table>
+<tr>
+<td>
 
+`SPLASHD` is a porous liquid (PL) size-exclusivity prediction workflow to 
+accelerate the discovery of PLs.
+
+</td>
+<td>
+
+<img src="./figures/vis.png" alt="vis" width="1000">
+
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
+
+`SPLASHD` is comprised of 3 main steps
+
+<img src="./figures/workflow.png" alt="workflow" width="2000">
+
+* **system library initialization**
+
+</td>
+</tr>
+</table>
