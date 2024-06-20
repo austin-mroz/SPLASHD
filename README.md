@@ -43,8 +43,14 @@ accelerate the discovery of PLs.
 
 <img src="./figures/workflow.png" alt="workflow" width="2000">
 
-* **system library initialization**
-
+* **system setup** -- a library of candidate solvents and a library of 
+candidate porous motifs are generated and optimized in separate workflows 
+* **size analysis** -- conformers of each candidate compound are extracted, 
+and their size subsequently analyzed. Porous motif cavity window diameters
+are calculated using <a href="https://github.com/marcinmiklitz/pywindow">PyWindow</a>.
+Solvent sizes are calculated usng <a href="https://github.com/austin-mroz/SMORES">SMORES</a>.
+* **size-exclusivity prediction** -- size exclusivity is predicted from the
+size analyses.
 </td>
 </tr>
 </table>
