@@ -11,8 +11,8 @@
 
 <p align="center">
     <a href="#key-features">key features</a> •
+    <a href="#installation">installation</a> •
     <a href="#examples">examples</a> •
-    <a href="#running-locally">run locally</a> •
     <a href="#citation">citation</a> •
     <a href="#acknowledgements">acknowledgements</a> •
     <a href="#license">license</a>
@@ -54,3 +54,19 @@ size analyses.
 </td>
 </tr>
 </table>
+
+## installation
+
+### from environment.yml
+
+### from scratch
+
+## examples
+
+## citation
+
+## acknowledgements
+
+## license
+
+We release this software under the conditions of the MIT license.
