@@ -59,6 +59,12 @@ size analyses.
 
 ### from environment.yml
 
+```bash
+
+foo@bar$ conda env create -n splashd python=3
+
+```
+
 ### from scratch
 
 ## examples
