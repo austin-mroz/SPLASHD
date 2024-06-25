@@ -1,0 +1,38 @@
+[project]
+name = "maple"
+dynamic = ["version"]
+dependencies = [
+    'tqdm',
+    'numpy',
+    'pandas',
+    'ase',
+    'stk',
+    'rdkit',
+    'mol-ellipsize',
+    'matplotlib',
+    'seaborn',
+    'atomlite',
+]
+
+[project.optional-dependencies]
+dev = ['black', 'flake8', 'mypy', 'isort']
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.package-data]
+splashd = ['py.typed']
+
+[tool.setuptools_.scm]
+
+[tool.isort]
+line_length = 79
+profile = "black"
+
+[tool.mypy]
+no_implicit_optional = true
+
+[[tool.mypy.overrides]]
+module = ["rdkit.*"]
+ignore_missing_imports = true
