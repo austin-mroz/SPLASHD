@@ -1,5 +1,5 @@
 [project]
-name = "maple"
+name = "splashd"
 dynamic = ["version"]
 dependencies = [
     'tqdm',

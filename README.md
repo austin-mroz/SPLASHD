@@ -61,7 +61,13 @@ size analyses.
 
 ```bash
 
-foo@bar$ conda env create -n splashd python=3
+foo@bar$ conda env create -n splashd python=3.12
+foo@bar$ conda activate splashd
+foo@bar$ pip install .
+foo@bar$ pip install git+https://github.com/austin-mroz/SMORES.git@implement-atomlite
+foo@bar$ conda install -c conda-forge openbabel
+foo@bar$ conda install -c conda-forge xtb
+foo@bar$ pip install git+https://github.com/austin-mroz/stko.git
 
 ```
 

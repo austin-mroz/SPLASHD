@@ -1,4 +1,4 @@
-name: /home/bogosort/work/SPLASHD/main/.venv
+name: splashd
 channels:
   - conda-forge
   - defaults
